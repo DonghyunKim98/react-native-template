@@ -1,9 +1,13 @@
+import { useTranslation } from 'react-i18next';
+
 import { Text } from '@/atoms';
 import { BasicLayout } from '@/layouts';
 
 type LoginScreenProps = {};
 
 export const LoginScreen = ({}: LoginScreenProps) => {
+  const { t } = useTranslation();
+
   // TODO : Use MutationIndicator Properly
   // useMutationIndicator([true])
 
@@ -17,6 +21,9 @@ export const LoginScreen = ({}: LoginScreenProps) => {
       </Text>
       <Text color="error" fontSize="28" fontWeight="400">
         error / 28 size / 500 weight
+      </Text>
+      <Text color="gray-800" fontSize="18" fontWeight="500">
+        {t('title')}
       </Text>
     </BasicLayout>
   );

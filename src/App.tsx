@@ -3,6 +3,7 @@ import 'dayjs/locale/ko';
 import isToday from 'dayjs/plugin/isToday';
 import { initializeMMKVFlipper } from 'react-native-mmkv-flipper-plugin';
 
+import './providers/i18n';
 import {
   MutationIndicatorProvider,
   QueryClientProvider,
