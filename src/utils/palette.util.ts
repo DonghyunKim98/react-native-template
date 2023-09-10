@@ -2,6 +2,7 @@
 
 export const palette = {
   white: '#ffffff',
+  'white-a60': 'rgba(255,255,255,0.60)',
   primary: '#2F80ED',
   error: '#EB5757',
   naver: '#03C75A',
