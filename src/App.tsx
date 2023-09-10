@@ -1,16 +1,12 @@
-import { Box } from '@mobily/stacks';
-import { Text } from 'react-native';
-
 import { QueryClientProvider, RecoilProvider, UIProvider } from './providers';
+import { RootNavigator } from './screens';
 
 export const App = () => {
   return (
     <QueryClientProvider>
       <RecoilProvider>
         <UIProvider>
-          <Box>
-            <Text>Hello World!</Text>
-          </Box>
+          <RootNavigator />
         </UIProvider>
       </RecoilProvider>
     </QueryClientProvider>
