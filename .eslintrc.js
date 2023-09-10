@@ -14,8 +14,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   settings: {
-    /* 'import/ignore': ['node_modules/react-native/index\\.js$'] */
-
     'import/ignore': ['react-native'],
   },
   rules: {
