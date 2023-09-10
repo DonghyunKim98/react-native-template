@@ -24,8 +24,8 @@ module.exports = {
         alias: {
           '@/atoms': './src/atoms',
           '@/utils': './src/utils',
-          '@/layouts': './src/layout',
-          '@/providers': './src/provider',
+          '@/layouts': './src/layouts',
+          '@/providers': './src/providers',
           '@/hooks': './src/hooks',
         },
       },

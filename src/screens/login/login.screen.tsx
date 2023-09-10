@@ -1,12 +1,13 @@
-import { Box } from '@mobily/stacks';
 import { Text } from 'react-native';
+
+import { BasicLayout } from '@/layouts';
 
 type LoginScreenProps = {};
 
 export const LoginScreen = ({}: LoginScreenProps) => {
   return (
-    <Box>
+    <BasicLayout>
       <Text>Login Screen</Text>
-    </Box>
+    </BasicLayout>
   );
 };
