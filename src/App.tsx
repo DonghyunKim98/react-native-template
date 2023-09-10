@@ -1,4 +1,9 @@
-import { QueryClientProvider, RecoilProvider, UIProvider } from './providers';
+import {
+  MutationIndicatorProvider,
+  QueryClientProvider,
+  RecoilProvider,
+  UIProvider,
+} from './providers';
 import { RootNavigator } from './screens';
 
 export const App = () => {
@@ -6,7 +11,9 @@ export const App = () => {
     <QueryClientProvider>
       <RecoilProvider>
         <UIProvider>
-          <RootNavigator />
+          <MutationIndicatorProvider>
+            <RootNavigator />
+          </MutationIndicatorProvider>
         </UIProvider>
       </RecoilProvider>
     </QueryClientProvider>
