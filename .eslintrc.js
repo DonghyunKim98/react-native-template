@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'import', 'unused-imports'],
+  plugins: ['@typescript-eslint', 'import', 'unused-imports', 'prettier'],
   env: {
     node: true,
   },
@@ -17,23 +17,11 @@ module.exports = {
     'import/ignore': ['react-native'],
   },
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        endOfLine: 'auto',
-      },
-    ],
+    'prettier/prettier': "error",
     'import/order': [
       1,
       {
-        groups: [
-          'builtin',
-          'external',
-          'internal',
-          'parent',
-          'sibling',
-          'index',
-        ],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
         alphabetize: {
           order: 'asc',
@@ -53,7 +41,7 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-empty-function': 'warn',
     'unused-imports/no-unused-imports': 'error',
-    'import/no-unresolved': ['error', {ignore: ['^@', '^glob:']}],
+    'import/no-unresolved': ['error', { ignore: ['^@', '^glob:'] }],
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',

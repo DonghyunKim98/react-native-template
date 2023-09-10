@@ -1,5 +1,4 @@
-import {Text, View, Button} from 'react-native';
-import {PropsWithChildren} from 'react';
+import { Text, View } from 'react-native';
 
 export const App = () => {
   return (
