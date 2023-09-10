@@ -2888,7 +2888,7 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
-dayjs@^1.8.15:
+dayjs@^1.11.9, dayjs@^1.8.15:
   version "1.11.9"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.9.tgz#9ca491933fadd0a60a2c19f6c237c03517d71d1a"
   integrity sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==
@@ -6209,6 +6209,11 @@ react-native-devtools@^0.0.1:
   resolved "https://registry.yarnpkg.com/react-native-devtools/-/react-native-devtools-0.0.1.tgz#4316c0edfada0df73a896cfe6e27ea79fefdce07"
   integrity sha512-Sjix7jymQMchC4G77vsgWPf0/Utpu0TPC+sfJdCWX1+vr7jgNYCB4XErfYbITbI/1GtUtFV/8005orj9hMwpow==
 
+react-native-error-boundary@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/react-native-error-boundary/-/react-native-error-boundary-1.2.3.tgz#0c9261c2f7ab97222e0a0101852189f140c5f6e7"
+  integrity sha512-Cg5sEToVpayv+s6mCPidRO48DswjOaaxbt1sOiVC+8nJ/tVUPXFkT1iCkZbG0E1eVr+LM9NXsAfOGiwvZZBCJA==
+
 react-native-flipper@^0.212.0:
   version "0.212.0"
   resolved "https://registry.yarnpkg.com/react-native-flipper/-/react-native-flipper-0.212.0.tgz#b3fdd47676ecd09a25edd77a1466acace6276762"
@@ -6224,6 +6229,16 @@ react-native-gesture-handler@^2.12.1:
     invariant "^2.2.4"
     lodash "^4.17.21"
     prop-types "^15.7.2"
+
+react-native-mmkv-flipper-plugin@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-mmkv-flipper-plugin/-/react-native-mmkv-flipper-plugin-1.0.0.tgz#f87f747d8cea51d2b12a1e711287feff5f212788"
+  integrity sha512-e3owMIBzXez45Wz8Ac84Vf1FmfwMXFVUpf/gCDWDLq19w7iCipVezQjlZo8ISVza8aQf1G4ggaK/r+qqtGmRlg==
+
+react-native-mmkv@^2.10.2:
+  version "2.10.2"
+  resolved "https://registry.yarnpkg.com/react-native-mmkv/-/react-native-mmkv-2.10.2.tgz#73f06bb710388f67bade031e7b8e42a6d2358e40"
+  integrity sha512-hNrZzwvIFyogJkqf//rVSw7EwceYqkx/jl3hb5tzct6qqwEmS1L9ybvnDjzDkaMyDeouQIqAnsdnb6AuDSrgQQ==
 
 react-native-modal@^13.0.1:
   version "13.0.1"
