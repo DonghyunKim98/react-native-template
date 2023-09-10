@@ -22,15 +22,13 @@ module.exports = {
           '.json',
         ],
         alias: {
-          '@/root-navigator': './src/screen/root.navigator.tsx',
           '@/atoms': './src/atoms',
           '@/utils': './src/utils',
-          '@/layout': './src/layout',
-          '@/provider': './src/provider',
+          '@/layouts': './src/layout',
+          '@/providers': './src/provider',
           '@/hooks': './src/hooks',
         },
       },
     ],
-    'react-native-reanimated/plugin',
   ],
 };

@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/root-navigator": ["./src/screen/root.navigator.tsx"],
       "@/atoms": ["./src/atoms"],
       "@/atoms/*": ["./src/atoms/*"],
       "@/utils": ["./src/utils"],
       "@/utils/*": ["./src/utils/*"],
-      "@/layout": ["./src/layout"],
-      "@/layout/*": ["./src/layout/*"],
-      "@/provider": ["./src/provider"],
-      "@/provider/*": ["./src/provider/*"],
+      "@/layouts": ["./src/layout"],
+      "@/layouts/*": ["./src/layout/*"],
+      "@/providers": ["./src/provider"],
+      "@/providers/*": ["./src/provider/*"],
       "@/hooks": ["./src/hooks"],
       "@/hooks/*": ["./src/hooks/*"]
     },

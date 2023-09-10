@@ -1,9 +1,14 @@
-import { Text, View } from 'react-native';
+import { Box } from '@mobily/stacks';
+import { Text } from 'react-native';
+
+import { UIProvider } from './providers';
 
 export const App = () => {
   return (
-    <View>
-      <Text>Hello World!</Text>
-    </View>
+    <UIProvider>
+      <Box>
+        <Text>Hello World!</Text>
+      </Box>
+    </UIProvider>
   );
 };

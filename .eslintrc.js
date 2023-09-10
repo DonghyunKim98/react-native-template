@@ -1,13 +1,12 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint', 'import', 'unused-imports', 'prettier'],
+  plugins: ['@typescript-eslint', 'import', 'unused-imports'],
   env: {
     node: true,
   },
   extends: [
     'eslint:recommended',
-    'plugin:prettier/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
@@ -17,7 +16,6 @@ module.exports = {
     'import/ignore': ['react-native'],
   },
   rules: {
-    'prettier/prettier': "error",
     'import/order': [
       1,
       {
