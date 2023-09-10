@@ -1,4 +1,5 @@
-// Customize the palette
+// TODO : Customize the palette
+
 export const palette = {
   white: '#ffffff',
   primary: '#2F80ED',
